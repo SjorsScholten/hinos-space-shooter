@@ -1,5 +1,5 @@
 ﻿using hinos.util;
-
+/*
 public abstract class PlayerShipState : State<PlayerShip> {
     protected PlayerShipStateFactory factory;
 
@@ -7,3 +7,4 @@ public abstract class PlayerShipState : State<PlayerShip> {
         this.factory = factory;
     }
 }
+*/

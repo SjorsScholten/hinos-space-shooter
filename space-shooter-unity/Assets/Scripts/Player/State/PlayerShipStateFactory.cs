@@ -1,4 +1,5 @@
-﻿public class PlayerShipStateFactory {
+﻿/*
+public class PlayerShipStateFactory {
     private readonly Hovering_PlayerShipState hoveringState;
     private readonly Cruising_PlayerShipState cruisingState;
 
@@ -11,3 +12,4 @@
 
     public Cruising_PlayerShipState GetCruisingState() => cruisingState;
 }
+*/

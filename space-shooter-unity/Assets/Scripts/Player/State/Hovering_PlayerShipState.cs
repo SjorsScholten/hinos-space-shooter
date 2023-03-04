@@ -1,4 +1,5 @@
-﻿public class Hovering_PlayerShipState : PlayerShipState {
+﻿/*
+public class Hovering_PlayerShipState : PlayerShipState {
     public Hovering_PlayerShipState(PlayerShip source, PlayerShipStateFactory factory) : base(source, factory, "Hovering") {
     }
 
@@ -11,17 +12,18 @@
     }
 
     public override void Update() {
-        var moveDirection = source.moveVectorInput.normalized;
-        var moveLength = source.moveVectorInput.magnitude;
+        var moveDirection = source.PlayerInput.MoveVector.normalized;
+        var moveLength = source.PlayerInput.MoveVector.magnitude;
         source.HandleMove(moveDirection, moveLength);
 
-        var turnAxis = source.turnAxisInput;
+        var turnAxis = source.PlayerInput.TurnAxis;
         source.HandleTurn(turnAxis);
     }
 
     public override void ChangeState() {
-        if(source.cruisePressed) {
+        if(source.PlayerInput.CruisePressed) {
             SwitchState(factory.GetCruisingState());
         }
     }
 }
+*/
